@@ -1,0 +1,179 @@
+<html>
+<head>
+    <!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>關於我這個到處當狗的死宅</title>
+    <style>
+        body {
+            margin: 0;
+            height: 90vh;  /* 設置頁面高度 */
+            position: relative;
+        }
+
+        /* 背景圖片模糊的遮罩 */
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('FF143.png');
+            background-size: cover;
+            background-position: center;
+            filter: blur(3px); /* 模糊背景圖片 */
+            z-index: -1; /* 背景圖片在內容區域的下方 */
+            mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
+            -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
+        }
+
+        /* 內容部分 */
+        .content {
+            position: relative;
+            z-index: 1;
+            color: white;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        .content h1 {
+            font-size: 3em;
+        }
+
+        .content p {
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>  <!-- 背景圖片，使用遮罩進行處理 -->
+    <div class="content">
+</body>
+</html>
+</body>
+</html>
+
+    <body style="background-color: rgb(40, 41, 59);"></body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #1c1e36c7;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #b8b8b8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #7d86b9;
+  color: rgb(255, 255, 255);
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1300px; /* Used in this example to enable scrolling */
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="Untitled-1.html">首頁</a>
+  <a href="me.html">關於我</a>
+  <a href="photo2.html">棚拍作品</a>
+  <a href="photo.html">外拍作品</a>
+  <a href="photo3.html">場照分享</a>
+
+</div>
+
+
+<div class="main">
+  <h1 style="font-size: 80px; text-align: center; color: aliceblue; text-shadow: 2px 2px 2px black;
+"柒羊</h1>
+  <h2 style="text-align: center; color: aliceblue; text-shadow: 2px 2px 4px black; font-size: 45px;
+">OMORI重度依賴 現在是Hazbin Hotel人</h2>
+  <h2 style="text-align: center; text-shadow: 2px 2px 4px black; font-size: 30px;
+">⬇ 有的沒的 ⬇</h2>
+<center>
+    <p style="text-shadow: 1px 1px 1px black;">玩cos已滿2年</p>
+  <p style="text-shadow: 1px 1px 1px black;">南女中社課講師，每天求薪水快點發</p>
+  <p style="text-shadow: 1px 1px 1px black;">社交軟體的更圖機器，社交隨緣版</p>
+  <p style="text-shadow: 1px 1px 1px black;">毛娘痛苦停單中，怎麼有人叫我做jinx</p>
+  <img src="123.jpg" alt="123">
+</center>
+<br>
+<br>
+<br>
+<h1>-最近聽的歌曲都放不了連結gg-</h1>
+<br>
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>影片排列</title>
+    <style>
+        /* 使影片容器成為 Flexbox */
+        .video-container {
+            display: flex;                       /* 啟用 Flexbox */
+            justify-content: space-between;      /* 在容器內部均勻分佈元素 */
+            align-items: center;                 /* 垂直居中對齊 */
+            height: 80vh;                       /* 設置容器的高度為視口高度 */
+            padding: 20px;                       /* 在容器內部添加邊距 */
+        }
+
+        /* 單一影片的樣式 */
+        .video {
+            width: 30%;                          /* 每個影片的寬度為容器的 30% */
+            height: 0;
+            padding-bottom: 40%;              /* 維持 16:9 的比例 */
+            position: relative;                  /* 使 iframe 內嵌在容器內 */
+        }
+
+        /* 影片內嵵 iframe 使其適應容器 */
+        .video iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="video-container">
+    <!-- 左邊影片 -->
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KKedfOBRmyA?si=WMFnb5LSGW_LfBeY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <!-- 中間影片 -->
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DT2g3SH7VS0?si=b9KCrNoRIACx-449" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <!-- 右邊影片 -->
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ghmaEb5mThw?si=iT4gxLXogWmBFWcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</div>
+
+</body>
+</html>
