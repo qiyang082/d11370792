@@ -1,0 +1,282 @@
+<html>
+<head>
+    <!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>場次去野餐</title>
+    <style>
+        body {
+            margin: 0;
+            height: 60vh;  /* 設置頁面高度 */
+            position: relative;
+        }
+
+        /* 背景圖片模糊的遮罩 */
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('FF147.png');
+            background-size: cover;
+            background-position: center;
+            filter: blur(3px); /* 模糊背景圖片 */
+            z-index: -1; /* 背景圖片在內容區域的下方 */
+            mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
+            -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
+        }
+
+        /* 內容部分 */
+        .content {
+            position: relative;
+            z-index: 1;
+            color: white;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        .content h1 {
+            font-size: 3em;
+        }
+
+        .content p {
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>  <!-- 背景圖片，使用遮罩進行處理 -->
+    <div class="content">
+</body>
+</html>
+</body>
+</html>
+
+    <body style="background-color: rgb(40, 41, 59);"></body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #1c1e36c7;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #b8b8b8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #7d86b9;
+  color: rgb(255, 255, 255);
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1000px; /* Used in this example to enable scrolling */
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="TOP.html">首頁</a>
+  <a href="me.html">關於我</a>
+  <a href="photo2.html">棚拍作品</a>
+  <a href="photo.html">外拍作品</a>
+  <a href="photo3.html">場照分享</a>
+</div>
+
+
+<div class="main">
+  <h1 style="font-size: 80px; text-align: center; color: aliceblue; text-shadow: 2px 2px 4px black;
+">場照分享</h1>
+  <h2 style="text-align: center; color: aliceblue; text-shadow: 2px 2px 4px black; font-size: 45px;
+">感謝那些認識的攝影和一面之緣的攝影</h2>
+
+   
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+  
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        padding: 0px;
+      }
+  
+      .game-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+      }
+  
+      .game-card {
+        background-color: #b7d6ff6b;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s ease;
+      }
+  
+      .game-card:hover {
+        transform: scale(1.05);
+      }
+  
+      .game-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+  
+      .game-info {
+        padding: 15px;
+      }
+  
+      .game-title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+  
+      .game-description {
+        font-size: 14px;
+        color: #ffffff;
+        margin-bottom: 15px;
+      }
+  
+      .game-rating {
+        font-size: 16px;
+        color: #f39c12;
+        margin-bottom: 10px;
+      }
+  
+      .game-link {
+        text-align: center;
+        padding: 10px;
+        background-color: #b7ceff;
+        color: #505e64;
+        font-size: 16px;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+  
+      .game-link:hover {
+        background-color: #e7cfaf;
+      }
+    </style>
+  
+  <body>
+  
+    <div class="game-container">
+      <div class="game-card">
+        <img src="b1.jpg" alt="遊戲1">
+        <div class="game-info">
+          <div class="game-title">OMORI Basil/phx廖禹衡</div>
+          <div class="game-description">台北pfd1/這是上上週的台北場次，第一次北上去場次玩，很榮幸被圍拍了一下子，我以為北場只有比較大尺的才會被圍，結果返照根本沒幾個攝影返，再也不玩圍拍了，已老實</div>
+          <br>
+          
+        </div>
+      </div>
+  
+      <div class="game-card">
+        <img src="b2.jpg" alt="遊戲2">
+        <div class="game-info">
+          <div class="game-title">頭七 離宇亭/phx77mon</div>
+          <div class="game-description">台北pfd2/那時候好像5點多了吧，被認識的攝影抓到拍了幾張，當天狀態很好，照片基本上都不用修啥很爽。</div>
+          <br>
+        </div>
+      </div>
+  
+      <div class="game-card">
+        <img src="b3.jpg" alt="遊戲3">
+        <div class="game-info">
+          <div class="game-title">頭七 子車甫昭/phx莊狙</div>
+          <div class="game-description">高雄巨蛋d3/那時候準備走人了，結果被攝影抓到了所幸按了幾張出來的，就很符合原著那種感覺。</div>
+          <br>
+        </div>
+      </div>
+      <div class="game-card">
+        <img src="b4.jpg" alt="遊戲4">
+        <div class="game-info">
+          <div class="game-title">初音 深海少女/phx睿睿</div>
+          <div class="game-description">高雄巨蛋d1/這張是等朋友拍照，攝影問說能不能按一張的產物，真的很喜歡。。初音場照這張最頂了。</div>
+          <br>
+        </div>
+      </div>
+      <div class="game-card">
+        <img src="b5.jpg" alt="遊戲5">
+        <div class="game-info">
+          <div class="game-title">Dead Plate Vince/phx莊狙</div>
+          <div class="game-description">高雄WSd1/那時候沉迷歐式畫風的視覺小說，在台灣冷到沒多少可以一起聊的同好。。</div>
+          <br>
+        </div>
+    </div>
+    <div class="game-card">
+      <img src="b6.jpg" alt="遊戲5">
+      <div class="game-info">
+        <div class="game-title">第五人格 長夜星辰/phx王正</div>
+        <div class="game-description">鳴夏宴/對沒錯，這是我們學校今年辦的那場，人很多，因為上年的人特別少，感覺這次比上次好很多了。</div>
+        <br>
+      </div>
+    </div>
+    <div class="game-card">
+      <img src="b7.jpg" alt="遊戲5">
+      <div class="game-info">
+        <div class="game-title">排球少年 孤爪研磨/phx77mon</div>
+        <div class="game-description">成大蒼繡月d2/其實很意外攝影會從北部下來台南XD畢竟真的很遠。</div>
+        <br>
+      </div>
+    </div>
+    <div class="game-card">
+      <img src="b8.jpg" alt="遊戲5">
+      <div class="game-info">
+        <div class="game-title">主播女孩重度依賴 糖糖/phx灰灰</div>
+        <div class="game-description">南台SIKd2/這是第一次給這位攝影拍，挺意外成片不差的，完全不敢信任野生攝影師。。。</div>
+        <br>
+      </div>
+      </div>
+    </div>
+
+
+
+
+
+</body>
+</html>

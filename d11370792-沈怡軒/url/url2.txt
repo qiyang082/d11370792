@@ -1,0 +1,290 @@
+<html>
+<head>
+    <!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>外拍到處跑</title>
+    <style>
+        body {
+            margin: 0;
+            height: 60vh;  /* 設置頁面高度 */
+            position: relative;
+        }
+
+        /* 背景圖片模糊的遮罩 */
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('FF147.png');
+            background-size: cover;
+            background-position: center;
+            filter: blur(3px); /* 模糊背景圖片 */
+            z-index: -1; /* 背景圖片在內容區域的下方 */
+            mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
+            -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
+        }
+
+        /* 內容部分 */
+        .content {
+            position: relative;
+            z-index: 1;
+            color: white;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        .content h1 {
+            font-size: 3em;
+        }
+
+        .content p {
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>  <!-- 背景圖片，使用遮罩進行處理 -->
+    <div class="content">
+</body>
+</html>
+</body>
+</html>
+
+    <body style="background-color: rgb(40, 41, 59);"></body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #1c1e36c7;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #b8b8b8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #7d86b9;
+  color: rgb(255, 255, 255);
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1000px; /* Used in this example to enable scrolling */
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="TOP.html">首頁</a>
+  <a href="me.html">關於我</a>
+  <a href="photo2.html">棚拍作品</a>
+  <a href="photo.html">外拍作品</a>
+  <a href="photo3.html">場照分享</a>
+</div>
+
+
+<div class="main">
+  <h1 style="font-size: 80px; text-align: center; color: aliceblue; text-shadow: 1px 1px 1px black;
+">外拍</h1>
+  <h2 style="text-align: center; color: aliceblue; text-shadow: 1px 1px 1px black; font-size: 45px;
+">近期都在棚拍</h2>
+ 
+
+   
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+  
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        padding: 0px;
+      }
+  
+      .game-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+      }
+  
+      .game-card {
+        background-color: #b7d6ff6b;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s ease;
+      }
+  
+      .game-card:hover {
+        transform: scale(1.05);
+      }
+  
+      .game-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+  
+      .game-info {
+        padding: 15px;
+      }
+  
+      .game-title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+  
+      .game-description {
+        font-size: 14px;
+        color: #ffffff;
+        margin-bottom: 15px;
+      }
+  
+      .game-rating {
+        font-size: 16px;
+        color: #f39c12;
+        margin-bottom: 10px;
+      }
+  
+      .game-link {
+        text-align: center;
+        padding: 10px;
+        background-color: #b7ceff;
+        color: #505e64;
+        font-size: 16px;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+  
+      .game-link:hover {
+        background-color: #e7cfaf;
+      }
+    </style>
+  
+  <body>
+  
+    <div class="game-container">
+      <div class="game-card">
+        <img src="a1.jpg" alt="遊戲1">
+        <div class="game-info">
+          <div class="game-title">排球少年 國見英/phx莊狙</div>
+          <div class="game-description">跑去高雄西子灣山上的秘境拍的，累得半死回家散架，爬礁石下水爬山什麼的都來，浪太大了有點危險但真的很好玩。</div>
+          <br>
+        
+        </div>
+      </div>
+  
+      <div class="game-card">
+        <img src="a2.jpg" alt="遊戲2">
+        <div class="game-info">
+          <div class="game-title">Manny's bryan/phx坤俊</div>
+          <div class="game-description">那一天就是純純玩水，而且今年的夏天特別熱，但有碰水所以可以降溫，上一張碰水了還是很熱。</div>
+          <br>
+         
+        </div>
+      </div>
+  
+      <div class="game-card">
+        <img src="a3.jpg" alt="遊戲3">
+        <div class="game-info">
+          <div class="game-title">P5 佐倉雙葉/phx柏毅</div>
+          <div class="game-description">當天很可惜下了點雨，但跟攝影討論後還是決定繼續走逛街拍，台南真的很多小巷子很好拍......。</div>
+          <br>
+          
+        </div>
+      </div>
+      <div class="game-card">
+        <img src="a4.jpg" alt="遊戲4">
+        <div class="game-info">
+          <div class="game-title">鬼滅之刃 魘夢/phx莊狙</div>
+          <div class="game-description">好像是下午6點多下高雄去博二取景的，拍到火車的大部分都是直向的所以沒辦法放上來，拍到晚上10點多才搭車回的台南的樣子。</div>
+          <br>
+          
+        </div>
+      </div>
+      <div class="game-card">
+        <img src="a5.jpg" alt="遊戲5">
+        <div class="game-info">
+          <div class="game-title">原神 魔術雙子/phx聖堂</div>
+          <div class="game-description">跑去嘉義的佐登妮絲拍的，當時寒流氣溫特別低，所以園區內的人不多也是賺到了，但當天真的邊拍邊抖。。。拍完就趕快把外套給穿上了，肯定是有病才會在寒流穿這個。</div>
+          <br>
+         
+        </div>
+    </div>
+    <div class="game-card">
+      <img src="a6.JPG" alt="遊戲5">
+      <div class="game-info">
+        <div class="game-title">原神 大慈樹王/phx睿睿</div>
+        <div class="game-description">其實這張是直向的，不過我覺得裁切後也不難看就留著了，這是去奇美拍的，那陣子奇美已經要變我家後花園了，一堆東西在奇美可以完美捕捉。</div>
+        <br>
+
+    </div>
+</div>
+<div class="game-card">
+  <img src="a7.JPG" alt="遊戲5">
+  <div class="game-info">
+    <div class="game-title">寶石之國 透綠柱石/phx莊狙</div>
+    <div class="game-description">跑去南美二館取的景，白白淨淨的跟寶石之國特別搭，為了拍照什麼都幹得出來的我，那躺地上肯定是完全沒問題的，假髮也是夠堅固的。寶石之國的假髮做起來真的很麻煩，也很耗材。</div>
+    <br>
+
+</div>
+</div>
+<div class="game-card">
+  <img src="a8.jpg" alt="遊戲5">
+  <div class="game-info">
+    <div class="game-title">寶石之國 透綠柱石/phx莊狙</div>
+    <div class="game-description">寶石人一定要碎一下才有那個感覺，所以拿到圖就打開長灰塵的ps開始摸，意外效果還行，只不過寶石切面本身就很硬了，確實是有點難跟人融合一起。。這一組外拍每張都很好看，簡約就很耐看。</div>
+    <br>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+</body>
+</html>
